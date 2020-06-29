@@ -13,7 +13,6 @@ public class breakBox : MonoBehaviour {
 
     void Awake() {
         if (rb == null) rb = GetComponent<Rigidbody>();
-        // Physics.IgnoreLayerCollision(gameObject.layer, 11);
     }
 
     void OnCollisionEnter(Collision collision) {
